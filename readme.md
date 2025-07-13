@@ -58,7 +58,7 @@ This project uses open source assets:
 
 ## 📞 Contact
 
-- Email: [papanikolakie@eco-lisis.com](mailto:papanikolakie@eco-lisis.com)
+- Email: [akourtisdev@gmail.com](mailto:akourtisdev@gmail.com)
 - Website: [ecopolis.app](https://ecopolis.app)
 
 ---
