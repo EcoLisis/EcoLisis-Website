@@ -1,0 +1,48 @@
+{
+  "name": "ecopolis-website",
+  "version": "1.0.0",
+  "description": "EcoPolis App landing page - Rewarding eco-friendly actions, connecting citizens, businesses, and municipalities for a greener future",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "format": "prettier --write \"**/*.{js,json,html,css,md}\"",
+    "format:check": "prettier --check \"**/*.{js,json,html,css,md}\"",
+    "stylelint": "stylelint \"**/*.css\"",
+    "stylelint:fix": "stylelint \"**/*.css\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EcoLisis/EcoLisis-Website.git"
+  },
+  "keywords": [
+    "sustainability",
+    "recycling",
+    "eco-friendly",
+    "green",
+    "ecopolis",
+    "ecolisis",
+    "circular-economy",
+    "smart-city"
+  ],
+  "author": "Alexandros Kourtis <akourtisdev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EcoLisis/EcoLisis-Website/issues"
+  },
+  "homepage": "https://ecopolis.alexandroskourtis.me",
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^5.4.3",
+    "eslint": "^8.57.1",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1",
+    "terser": "^5.37.0",
+    "vite": "^6.0.1",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}

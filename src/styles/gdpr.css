@@ -1,0 +1,115 @@
+/**
+ * GDPR Cookie Consent Banner Styles
+ */
+
+.cookie-consent-banner {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    padding: 20px;
+    transition: bottom 0.4s ease-in-out;
+    border-top: 3px solid #007CC2;
+}
+
+.cookie-consent-banner.show {
+    bottom: 0;
+}
+
+.cookie-consent-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cookie-consent-text h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    color: #007CC2;
+    font-family: 'myFirstFont', serif;
+}
+
+.cookie-consent-text p {
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.cookie-consent-text a {
+    color: #007CC2;
+    text-decoration: underline;
+}
+
+.cookie-consent-text a:hover {
+    color: #23AA85;
+}
+
+.cookie-consent-actions {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.cookie-consent-actions .btn {
+    white-space: nowrap;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cookie-consent-actions .btn-primary {
+    background: #007CC2;
+    color: white;
+    border: none;
+}
+
+.cookie-consent-actions .btn-primary:hover {
+    background: #006BA8;
+    transform: translateY(-2px);
+}
+
+.cookie-consent-actions .btn-outline-secondary {
+    background: transparent;
+    color: #666;
+    border: 2px solid #ddd;
+}
+
+.cookie-consent-actions .btn-outline-secondary:hover {
+    background: #f5f5f5;
+    border-color: #999;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .cookie-consent-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .cookie-consent-actions {
+        flex-direction: column;
+    }
+
+    .cookie-consent-actions .btn {
+        width: 100%;
+    }
+}
+
+/* Accessibility: High contrast mode */
+@media (prefers-contrast: high) {
+    .cookie-consent-banner {
+        border-top-width: 5px;
+    }
+
+    .cookie-consent-actions .btn {
+        border-width: 2px;
+    }
+}

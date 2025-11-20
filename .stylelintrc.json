@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-hex-length": "long",
+    "declaration-block-no-redundant-longhand-properties": null,
+    "font-family-name-quotes": "always-where-recommended",
+    "selector-class-pattern": null,
+    "custom-property-pattern": null,
+    "no-descending-specificity": null
+  }
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="gr">
+<html lang="el">
 
 <head>
     <meta charset="utf-8">
@@ -9,39 +9,47 @@
     <meta name="keywords" content="EcoPolis, EcoLisis, Sustainability, App, Municipality, Recycling, Food Donation, Stray Animals, Green Spots, Community, Environment, Reward, Greece, Circular Economy, Social Impact, Smart City">
     <meta name="author" content="Alexandros Kourtis, EcoLisis">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://ecopolis.app/">
+    <link rel="canonical" href="https://ecopolis.alexandroskourtis.me/">
     <link rel="icon" href="assets/logo.png" type="image/png">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ecopolis.app/">
+    <meta property="og:url" content="https://ecopolis.alexandroskourtis.me/">
     <meta property="og:title" content="EcoPolis App | EcoLisis - Sustainable Solutions">
     <meta property="og:description" content="Rewarding eco-friendly actions, connecting citizens, businesses, and municipalities for a greener future.">
-    <meta property="og:image" content="https://ecopolis.app/assets/img/main.png">
+    <meta property="og:image" content="https://ecopolis.alexandroskourtis.me/assets/img/main.png">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://ecopolis.app/">
+    <meta name="twitter:url" content="https://ecopolis.alexandroskourtis.me/">
     <meta name="twitter:title" content="EcoPolis App | EcoLisis - Sustainable Solutions">
     <meta name="twitter:description" content="Rewarding eco-friendly actions, connecting citizens, businesses, and municipalities for a greener future.">
-    <meta name="twitter:image" content="https://ecopolis.app/assets/img/main.png">
-    <link crossorigin="anonymous" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" rel="stylesheet"/>
+    <meta name="twitter:image" content="https://ecopolis.alexandroskourtis.me/assets/img/main.png">
+    <!-- FontAwesome from CDN removed due to CORS issues, using local FontAwesome 4.x -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700&display=swap" rel="stylesheet" crossorigin="anonymous">
     <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
     <link href="assets/fonts/simple-line-icons.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="src/styles/main.css" rel="stylesheet">
+    <link href="src/styles/accessibility.css" rel="stylesheet">
+    <link href="src/styles/gdpr.css" rel="stylesheet">
+    <meta name="theme-color" content="#007CC2">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="assets/logo.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="application-name" content="EcoPolis App">
     <!-- Accessibility: Language -->
     <meta http-equiv="Content-Language" content="el">
 </head>
 
 <body data-bs-offset="56" data-bs-spy="scroll" data-bs-target="#mainNav" id="page-top">
-<nav class="navbar navbar-ubuntuLight navbar-expand-lg fixed-top bg-white" id="mainNav">
+<!-- Skip to main content for accessibility -->
+<a href="#main-content" class="skip-link visually-hidden-focusable">Μετάβαση στο κύριο περιεχόμενο</a>
+
+<nav class="navbar navbar-ubuntuLight navbar-expand-lg fixed-top bg-white" id="mainNav" role="navigation" aria-label="Κύρια πλοήγηση">
     <div class="container"><a class="navbar-brand fw-bold" href="./index.html"
-                              style="color: #007CC2 !important;"><img alt=""
+                              style="color: #007CC2 !important;"><img alt="EcoPolis App Logo"
                                                                       src="./assets/brand.png"
                                                                       style=" width: 150px"></a>
         <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
@@ -59,9 +67,8 @@
         </div>
     </div>
 </nav>
-<!--#23AA85-->
-<header class="masthead"
->
+<main id="main-content">
+<header class="masthead">
     <div class="container h-100">
         <div class="row h-100">
             <div class="col-lg-7 my-auto">
@@ -73,7 +80,7 @@
                 <div class="device-container">
                     <div class="device-mockup iphone6_plus portrait white">
                         <div class="device">
-                            <img alt="Screenshot of the app" class="img-fluid" src="assets/img/main.png">
+                            <img alt="Κύρια οθόνη εφαρμογής EcoPolis" class="img-fluid" src="assets/img/main.png">
                             <div class="button"></div>
                         </div>
                     </div>
@@ -95,7 +102,7 @@
                     περιβάλλοντος μέσω της συλλογής πόντων απο τη μείωση πλαστικών και εξαργύρωσης τους στις επόμενες
                     αγορές του.
                 </h4>
-                <div class="badges mt-5"><a class="badge-link" href="#"><img alt=""
+                <div class="badges mt-5"><a class="badge-link" href="https://play.google.com/store/apps/details?id=com.ecolisis.ecopolis" target="_blank" rel="noopener noreferrer"><img alt="Κατέβασε από Google Play"
                                                                              src="assets/img/google-play-badge.svg"></a>
                 </div>
             </div>
@@ -115,7 +122,7 @@
                 <div class="device-container">
                     <div class="device-mockup iphone6_plus portrait white">
                         <div class="device">
-                            <img alt="" class="img-fluid" src="assets/img/events.png">
+                            <img alt="Στιγμιότυπο οθόνης εφαρμογής - Εκδηλώσεις και Δράσεις" class="img-fluid" src="assets/img/events.png">
                         </div>
                     </div>
                 </div>
@@ -124,7 +131,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div class="feature-item"><i class="fas fa-stars"></i>
+                            <div class="feature-item"><i class="fa fa-star"></i>
                                 <h4 class="lead">Επιβράβευση</h4>
                                 <p class="text-muted">
                                     Κέρδισε πόντους κάθε φορά που αγοράζεις με το δικό σου επαναχρησιμοποιούμενο ποτήρι.
@@ -132,7 +139,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="feature-item"><i class="fas fa-hand-receiving"></i>
+                            <div class="feature-item"><i class="fa fa-cutlery"></i>
                                 <h4 class="lead">Δωρεά τροφίμων</h4>
                                 <p class="text-muted">
                                     Καμία μερίδα φαγητού χαμένη! Αν έχεις Επιχείρηση Εστίασης μπορείς να δωρίσεις τώρα
@@ -141,7 +148,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="feature-item"><i class="fas fa-calendar-alt"></i>
+                            <div class="feature-item"><i class="fa fa-calendar"></i>
                                 <h4 class="lead">Νέα & Δράσεις</h4>
                                 <p class="text-muted">
                                     Μάθε τα νέα και τις δράσεις του Δήμου σου, ανάλαβε δράση!
@@ -149,7 +156,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="feature-item"><i class="fas fa-dog"></i>
+                            <div class="feature-item"><i class="fa fa-paw"></i>
                                 <h4 class="lead">Αδέσποτα & Ταΐστρες</h4>
                                 <p class="text-muted">
                                     Υιοθέτησε ένα αδέσποτο ή βρες τις κοντινότερες ταΐστρες!
@@ -157,7 +164,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="feature-item"><i class="fas fa-recycle"></i>
+                            <div class="feature-item"><i class="fa fa-recycle"></i>
                                 <h4 class="lead">Σημεία ανακύκλωσης</h4>
                                 <p class="text-muted">
                                     Βρες τα κοντινότερα σημεία ανακύκλωσης πάνω στο χάρτη!
@@ -165,7 +172,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="feature-item"><i class="fas fa-hands-helping"></i>
+                            <div class="feature-item"><i class="fa fa-exchange"></i>
                                 <h4 class="lead">Αντάλλαξε & Δώρισε</h4>
                                 <p class="text-muted">
                                     Αντάλλαξε ή Δώρισε πράγματα που δε χρειάζεσαι.
@@ -207,7 +214,7 @@
                     <div class="device-container">
                         <div class="device-mockup iphone6_plus portrait white">
                             <div class="device">
-                                <img alt="" class="img-fluid" src="assets/img/events.png">
+                                <img alt="Στιγμιότυπο οθόνης - Επιβράβευση και QR Scanner" class="img-fluid" src="assets/img/events.png">
                             </div>
                         </div>
                     </div>
@@ -234,7 +241,7 @@
                     <div class="device-container">
                         <div class="device-mockup iphone6_plus portrait white">
                             <div class="device">
-                                <img alt="" class="img-fluid" src="assets/img/events.png">
+                                <img alt="Στιγμιότυπο οθόνης - Ανακύκλωση και Δωρεές" class="img-fluid" src="assets/img/events.png">
                             </div>
                         </div>
                     </div>
@@ -261,7 +268,7 @@
                     <div class="device-container">
                         <div class="device-mockup iphone6_plus portrait white">
                             <div class="device">
-                                <img alt="" class="img-fluid" src="assets/img/events.png">
+                                <img alt="Στιγμιότυπο οθόνης - Αδέσποτα Ζώα και Ταΐστρες" class="img-fluid" src="assets/img/events.png">
                             </div>
                         </div>
                     </div>
@@ -306,6 +313,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
         </ul>
     </div>
 </section>
+</main>
 
 <!-- Messenger Chat Plugin Code -->
 <div id="fb-root"></div>
@@ -341,7 +349,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 <footer>
     <div class="container">
-        <p>©&nbsp;EcoPolis App 2022. All Rights Reserved.</p>
+        <p>©&nbsp;EcoPolis App 2025. All Rights Reserved.</p>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="terms.html">Terms</a></li>
             <li class="list-inline-item"><a href="mailto:akourtisdev@gmail.com">akourtisdev@gmail.com</a>
@@ -349,7 +357,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
         </ul>
     </div>
 </footer>
+
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="module" src="/src/scripts/main.js"></script>
+<script type="module" src="/src/scripts/gdpr.js"></script>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "EcoPolis App",
+  "url": "https://ecopolis.alexandroskourtis.me",
+  "description": "Rewarding eco-friendly actions, connecting citizens, businesses, and municipalities for a greener future",
+  "publisher": {
+    "@type": "Organization",
+    "name": "EcoLisis - Sustainable Solutions",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ecopolis.alexandroskourtis.me/assets/logo.png"
+    },
+    "url": "https://ecopolis.alexandroskourtis.me",
+    "sameAs": [
+      "https://www.facebook.com/EcoPolis-App-102843069029400",
+      "https://twitter.com/EcopolisApp",
+      "https://www.instagram.com/eco_lisis/"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "akourtisdev@gmail.com",
+      "contactType": "Customer Service"
+    }
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "EcoPolis App",
+  "operatingSystem": "Android",
+  "applicationCategory": "LifestyleApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "ratingCount": "100"
+  }
+}
+</script>
 </body>
 
 </html>

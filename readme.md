@@ -52,7 +52,7 @@ EcoPolis App aims to:
 
 ## 🌐 Deployment
 
-The website is designed for static hosting and can be deployed on platforms like GitHub Pages, Netlify, or Vercel. The custom domain is set to `ecopolis.app`.
+The website is designed for static hosting and can be deployed on platforms like GitHub Pages, Netlify, or Vercel. The custom domain is set to `ecopolis.alexandroskourtis.me`.
 
 ## ⚡ Getting Started (Development)
 
@@ -73,7 +73,7 @@ This project uses open source assets:
 ## 📞 Contact
 
 - Email: [akourtisdev@gmail.com](mailto:akourtisdev@gmail.com)
-- Website: [ecopolis.app](https://ecopolis.app)
+- Website: [ecopolis.alexandroskourtis.me](https://ecopolis.alexandroskourtis.me)
 
 ---
 *EcoPolis App: Download, participate, and help your city thrive sustainably!*

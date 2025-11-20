@@ -1,0 +1,42 @@
+{
+  "name": "EcoPolis App - Sustainable Living",
+  "short_name": "EcoPolis",
+  "description": "Rewarding eco-friendly actions, connecting citizens, businesses, and municipalities for a greener future",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007CC2",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "productivity", "utilities"],
+  "lang": "el",
+  "dir": "ltr",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "/assets/img/main.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Main screen"
+    },
+    {
+      "src": "/assets/img/events.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Events and actions"
+    }
+  ]
+}

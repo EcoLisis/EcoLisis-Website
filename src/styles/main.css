@@ -1,0 +1,138 @@
+/* Custom Fonts */
+@font-face {
+    font-family: Light;
+    src: url(/assets/fonts/MPLUS1p-Light.ttf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(/assets/fonts/MPLUS1p-Medium.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/assets/fonts/MPLUS1p-Regular.ttf);
+}
+
+@font-face {
+    font-family: myFirstFontSkinny;
+    src: url(/assets/fonts/MPLUS1p-Thin.ttf);
+}
+
+@font-face {
+    font-family: ubuntuLight;
+    src: url(/assets/fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+@font-face {
+    font-family: ubuntuRegular;
+    src: url(/assets/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+
+/* Animations */
+@keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Typography */
+h2, h3 {
+    font-family: 'myFirstFontSkinny', serif;
+}
+
+h4 {
+    font-family: 'myFirstFont', serif;
+}
+
+.lead {
+    font-family: ubuntuRegular;
+}
+
+/* Navigation */
+.list-inline-item a:hover {
+    color: #007CC2;
+}
+
+#mainNav .navbar-nav > li > a.active {
+    color: #007CC2;
+}
+
+#mainNav .navbar-nav > li > a {
+    font-size: 15px;
+    font-family: ubuntuRegular, serif;
+    letter-spacing: 2px;
+    text-transform: initial;
+    color: #5a5a5a;
+}
+
+.nav-link {
+    color: #5a5a5a !important;
+}
+
+.nav-link:hover {
+    color: #007CC2 !important;
+}
+
+/* Feature Items */
+.feature-item i {
+    background-image: linear-gradient(to left, #007CC2, #007CC2);
+}
+
+.feature-item p {
+    font-family: ubuntuLight;
+}
+
+/* Scroll Down Indicator */
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #FFF;
+    background-size: 14px auto;
+    border-radius: 50%;
+    z-index: 2;
+    opacity: 1;
+    animation: bounce 2s infinite 2s;
+    transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0 0 2px 2px;
+}
+
+/* Images */
+.img-fluid {
+    padding: 30px;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    section h2 {
+        font-size: 30px;
+    }
+}

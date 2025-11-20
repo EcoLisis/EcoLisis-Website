@@ -1,0 +1,12 @@
+# EcoPolis App - robots.txt
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas
+Disallow: /assets/img/backup/
+
+# Sitemap location
+Sitemap: https://ecopolis.alexandroskourtis.me/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
